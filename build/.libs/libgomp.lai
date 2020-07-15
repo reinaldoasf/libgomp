@@ -14,7 +14,7 @@ library_names='libgomp.so.1.0.0 libgomp.so.1 libgomp.so'
 old_library='libgomp.a'
 
 # Linker flags that can not go in dependency_libs.
-inherited_linker_flags=' -pthread'
+#inherited_linker_flags=' -pthread'
 
 # Libraries that this one depends upon.
 dependency_libs=' -ldl'
